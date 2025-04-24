@@ -1,8 +1,23 @@
 {
     "download": false,
-    "image_directory": "path/to/image/dir",
+    "image_directory": "downloads", 
+    "output_folder": "preprocessed",
     "use_dust3r": true,
     "use_mast3r": true,
     "preprocess_image": true,
-    "view_output": true
+    "preprocess_model": "u2net",
+    "view_output": false,
+    "file_ids": ["17QxZpfjLsL5BElf0OYNwBU0hq4wr1MG_",
+    "19vAoGLwLDXrr620WHmpkNXiNwZXCVcnt",
+    "1LANtLNxl5UzKY1j7gofH-kdugJeEtkLX",
+    "1DEQyClx4Be_hQtq1f3xtc2X9Smz8R686",
+    "1nIhExOE8asL0-7SSHx87BUij5TPxXfwj"],
+
+    "mast3r_model": {
+    "min_conf_thr": 1.5,
+    "matching_conf_thr": 2,
+    "as_pointcloud": false,
+    "cam_size": 0.2,
+    "shared_intrinsics": false
+    }
 }
